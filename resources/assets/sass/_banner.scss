@@ -1,0 +1,13 @@
+.oa-banner{
+	position:relative;
+	img{
+		width:100%;
+	}
+	a.oa-more{
+		display:block;
+		z-index:1;
+		position:absolute;
+		bottom: 3em;
+		right: 3em;
+	}
+}

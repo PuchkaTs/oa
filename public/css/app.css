@@ -11179,6 +11179,22 @@ button.swiper-pagination-bullet {
   width: 100%;
 }
 
+.oa-banner {
+  position: relative;
+}
+
+.oa-banner img {
+  width: 100%;
+}
+
+.oa-banner a.oa-more {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  bottom: 3em;
+  right: 3em;
+}
+
 .surgalt-left {
   background-color: #541a81;
   padding: 1em;
@@ -11944,5 +11960,10 @@ body {
 .zoom-wrap:hover .zoom-in {
   -webkit-transform: scale(1.05);
           transform: scale(1.05);
+}
+
+.btn-info {
+  text-transform: uppercase;
+  color: #541a81;
 }
 

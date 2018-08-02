@@ -82,6 +82,7 @@ return array(
 		'setgegdel',
 		'Галерей' => array('gallery', 'galleryImages'),
 		'Бүтээгдэхүүн' => array('products', 'productImages'),
+		'banners',
 	),
 
 	/**
