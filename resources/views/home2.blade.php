@@ -77,6 +77,11 @@
       lightGallery(document.getElementById('buteegdehuun-lightgallery'));
   </script>
 
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
 @endsection
 
 

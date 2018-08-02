@@ -84,6 +84,7 @@ return array(
 		'Бүтээгдэхүүн' => array('products', 'productImages'),
 		'banners',
 		'messages',
+		'aimags',
 	),
 
 	/**

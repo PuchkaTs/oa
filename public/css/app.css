@@ -11434,8 +11434,20 @@ button.swiper-pagination-bullet {
   padding: 4em 2em;
 }
 
-.salbaruud path {
+.salbaruud path.active {
   fill: #541a81;
+  stroke: #fff;
+  stroke-width: 1;
+}
+
+.salbaruud path.active:hover {
+  fill: #ec4e29;
+}
+
+.salbaruud path {
+  stroke: #fff;
+  stroke-width: 1;
+  fill: #ccc;
 }
 
 .salbaruud path:hover {

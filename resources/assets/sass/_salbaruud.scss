@@ -19,8 +19,16 @@
 		color:white;
 		padding:4em 2em;
 	}
+	path.active{
+		fill:$primary;
+		stroke:#fff;stroke-width:1;
+		&:hover{
+			fill: $oa-orange;
+		}
+	}
 	path{
-		fill: $primary;
+		stroke:#fff;stroke-width:1;
+		fill: #ccc;
 		&:hover{
 			fill: $oa-orange;
 		}
