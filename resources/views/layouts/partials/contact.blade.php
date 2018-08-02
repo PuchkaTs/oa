@@ -7,15 +7,16 @@
 		<p><span><img src="/assets/what3words.svg"></span> Цээжлэх. Хэвшмэл. Мэргэших</p>
 	</div>
 	<div class="col-md-6 contact-form">
-		<form>
+		<form method="POST" action="/messages">
+		{{ csrf_field() }}
 		  <div class="form-group">
-		    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Нэр">
+		    <input required="required" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Нэр" name="name">
 		  </div>
 		  <div class="form-group">
-		    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Имэйл, утас">
+		    <input required="required" type="text" class="form-control" id="exampleInputPassword1" placeholder="Имэйл, утас" name="contact">
 		  </div>
 		  <div class="form-group">
-		    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+		    <textarea  required="required" class="form-control" id="exampleFormControlTextarea1" rows="3" name="text"></textarea>
 		  </div>
 		  <button type="submit" class="btn btn-info btn-lg float-right">ИЛГЭЭХ</button>
 		</form>

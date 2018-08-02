@@ -83,6 +83,7 @@ return array(
 		'Галерей' => array('gallery', 'galleryImages'),
 		'Бүтээгдэхүүн' => array('products', 'productImages'),
 		'banners',
+		'messages',
 	),
 
 	/**

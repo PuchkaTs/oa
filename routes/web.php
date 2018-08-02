@@ -55,6 +55,11 @@ Route::get('/product/{id}', [
     'uses' => 'PagesController@show_product'
 ]);
 
+Route::post('/messages', [
+    'as'   => 'message_path',
+    'uses' => 'PagesController@store_message'
+]);
+
 Route::get('/map', function () {
 	$config['center'] = '47.895565, 106.909438';
 	$config['zoom'] = '14';

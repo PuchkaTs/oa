@@ -11,6 +11,7 @@ use App\Role;
 use App\News;
 use App\Oaevent;
 use App\Product;
+use App\Message;
 use GMaps;
 use Validator;
 
@@ -212,5 +213,20 @@ class PagesController extends Controller
         $product = Product::find($id);
 
         return view('show_product')->with(compact('product'));
+    }
+
+    public function store_message(Request $request){
+
+        $this->validate($request, [
+            'name' => 'required',
+            'contact' => 'required',
+            'text' => 'required'
+        ]);
+
+        Message::create($request->all());
+
+        return back();
+
+
     }
 }
