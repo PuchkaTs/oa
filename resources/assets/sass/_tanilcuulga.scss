@@ -1,0 +1,26 @@
+.tanilcuulga{
+	margin-top:2em;
+	background-color:white;
+}
+.tanilcuulga-left{
+	background-color: $primary;
+	padding:1em;
+	height:100%;
+	text-align:center;
+	padding:4em;
+	a{
+		margin:2em;
+		color:white;
+		text-transform:uppercase;
+	}
+}
+.tanilcuulga-right{
+	padding:6em 4em;
+	text-align:justify;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: #fff;
+    background-color: #541a81;
+    border: 1px solid $oa-yellow;
+}

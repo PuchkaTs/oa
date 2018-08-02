@@ -1,0 +1,64 @@
+.oa-contact{
+	.contact-map{
+		padding:6em;
+		position:relative;
+		overflow:hidden;
+		img{
+			width:16px;
+		}
+		h1{
+			text-transform:uppercase;
+		}
+		i{
+			width:16px;
+		}
+		p{
+			margin-top:3em;
+		}
+		&:after{
+			background-image:url("/assets/map-jpg.jpg");
+			content: "";
+			opacity: 0.2;
+			top: -100px;
+			left: -300px;
+			bottom: 0;
+			right: 0;
+			position: absolute;
+			z-index: -1; 
+		}
+	}
+	.contact-form{
+		padding:6em;
+		color:white;
+		background-color:$primary;
+		input, textarea{
+			background:transparent;
+			color:white;
+		}
+		p{
+			margin-top:5em;
+			display:block;
+			width: 100%;
+			text-align:center;
+			span{
+				display:inline-block;
+				padding:1em;
+				width:3.2em;
+				&:nth-child(1){
+					background-color:#3b5999;
+				}
+				&:nth-child(2){
+					background-color:#55acef;
+				}
+				&:nth-child(3){
+					background-color:#ce201f;
+				}
+				&:hover{
+					background-color:white;
+					color:$primary;
+				}
+			}
+
+		}
+	}
+}

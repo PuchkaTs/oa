@@ -1,0 +1,55 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+//Variables
+$primary: #541a81;
+$info: #ffd504;
+$oa-yellow: #f7d400;
+$oa-orange: #ec4e29;
+
+
+// Bootstrap
+@import "node_modules/bootstrap/scss/bootstrap";
+@import "swiper";
+
+@import "header";
+@import "surgalt";
+@import "tanilcuulga";
+@import "gallery";
+@import "setgegdel";
+@import "salbaruud";
+@import "certificate";
+@import "medeelel";
+@import "buteegdehuun";
+@import "events";
+@import "contact";
+@import "zaavar";
+@import "anket";
+@import "map";
+@import "salbarImage";
+
+body{
+	background-color:#efefef;
+}
+.blue-title{
+	color: $primary;
+	text-align: center;
+	margin-top : 1em;
+	text-transform:uppercase;
+}
+
+.text-bold{
+	font-weight:700;
+}
+.swiper-pagination-bullet{
+	background: white;
+}
+
+.zoom-wrap{
+	.zoom-in{
+	    transition: transform ease .3s;
+	}
+    &:hover .zoom-in{
+	    transform: scale(1.05);
+    }
+}

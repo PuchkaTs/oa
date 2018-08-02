@@ -1,0 +1,22 @@
+.oa-anket{
+	h1{
+		text-align:center;
+		text-transform: uppercase;
+	}
+	.anket-left{
+		color:white;
+		padding:6em;
+		background-color:$primary;
+		input, textarea{
+			background:transparent;
+			color:white;
+		}
+		form .row{
+			margin-bottom: 1rem;
+		}
+	}
+	.anket-right{
+		padding:6em;
+
+	}
+}

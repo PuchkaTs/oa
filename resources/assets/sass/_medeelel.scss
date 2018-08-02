@@ -1,0 +1,47 @@
+.oa-medee-container{
+	padding:2em;
+	background-color:white;	
+}
+.oa-medee{
+	margin:3em 0em;
+	height:120px;
+	.medee-zurag{
+		height:100%;
+		overflow:hidden;
+		img{
+			height:100%;
+		}
+	}
+	h6{
+		text-transform:uppercase;
+		color:$primary;
+		font-weight:400;
+		font-size:1.1em;
+	}
+	p{
+		text-align:justify;
+	}
+	.medee-right{
+		position:relative;
+		height:100%;
+		border-bottom:1px solid $primary;
+		padding:0px;
+		span{
+			display:block;
+			padding-left:1em;
+			background-color:white;
+			z-index: 1;
+			position:absolute;
+			right:0px;
+			bottom:-10px;
+		}
+	}
+}
+
+.medee-cover{
+	width:100%;
+	overflow:hidden;
+	img{
+		width:100%;
+	}
+}

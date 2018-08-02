@@ -1,0 +1,30 @@
+.oa-certificate{
+	padding:4em 2em;
+	color:white;
+	background-color:black;
+	h1{
+	text-align:center;
+	text-transform:uppercase;
+	}
+	p{
+		font-weight:100;
+		text-align:justify;
+		margin-bottom:2em;
+	}
+
+	.oa-loop{
+	    width: 40px;
+	    position: relative;
+	    left: -20px;
+	    top: 14px;
+	}
+
+	input#secretNumber{
+		color:white;
+		font-weight:700;
+		width:300px;
+		border-radius: 35px;
+		border: 2px solid white;
+		background:transparent;
+	}
+}

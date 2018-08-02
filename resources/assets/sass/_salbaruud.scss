@@ -1,0 +1,43 @@
+.salbaruud{
+	position:relative;
+	.salbaruud-title{
+		width:100%;
+		position:absolute;
+		text-align:center;
+		top:0px;
+		z-index:1;
+	}
+	.salbaruud-left{
+		padding:100px 50px;
+		background-color:white;
+		min-height:600px;
+	}
+	.salbaruud-right{
+		font-weight:100;
+		background-color:black;
+		min-height: 600px;
+		color:white;
+		padding:4em 2em;
+	}
+	path{
+		fill: $primary;
+		&:hover{
+			fill: $oa-orange;
+		}
+	}
+	.oa-contact{
+		position:relative;
+		margin:1.5em 0em;
+		.oa-icon{
+			position:absolute;
+			left:0px;
+			top:10px;
+		}
+		p{
+			margin:0px;
+			margin-left:40px;
+			line-height:1;
+		}
+	}
+
+}
