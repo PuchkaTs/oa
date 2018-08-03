@@ -11,7 +11,7 @@
 				</div>
 				<h4 class="event-title">{{$event->title}}</h4>
 				<h4 class="event-date"><span>{{$event->start_at}}</span></h4>
-				{!!$event->shorten()!!}
+				<p>{!!$event->shorten()!!}</p>
 				<span class="event-link"><a href="{{route('events_show_path', array('id' => $event->id))}}">Дэлгэрэнгүй</a></span>
 			</div>
 
